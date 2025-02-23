@@ -1,4 +1,29 @@
+body{
+    font-family: Helvetica, sans-serif;
+    background-color: white;
+}
+
+.recipe-list{
+    display: inline-block;
+    padding: 5px ;
+}
+
+.description, .ingredients, .steps {
+    display: block;
+    background-color: lavender;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
 button, a{
-    padding: 3px;
-    background-color: turquoise;
+    color: white;
+    background-color: blue;
+    font-size: 15px;
+    padding: 4px;
+    margin: 5px 0px;
+}
+
+img  {
+    width: 500px;
+    text-align: center;
 }
